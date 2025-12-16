@@ -1,0 +1,27 @@
+{
+  "name": "frontend-react-dev",
+  "version": "1.0.0",
+  "scripts": {
+    "build": "tsc",
+    "dev": "nodemon --exec npx ts-node src/index.ts",
+    "start": "node dist/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tensenrey/frontend-react-dev.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tensenrey/frontend-react-dev/issues"
+  },
+  "homepage": "https://github.com/tensenrey/frontend-react-dev#readme",
+  "description": "",
+  "devDependencies": {
+    "@types/node": "^25.0.2",
+    "nodemon": "^3.1.11",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.3"
+  }
+}
