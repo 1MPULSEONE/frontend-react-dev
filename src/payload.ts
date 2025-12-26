@@ -1,11 +1,11 @@
-type RegionSales = {
+export type RegionSales = {
   total: number;
   orders: number;
   avgOrder: number;
   sliceDate: string;
 };
 
-type SalesData = Record<string, RegionSales>;
+export type SalesData = Record<string, RegionSales>;
 
 export const salesData: SalesData = {
   moscow: {
